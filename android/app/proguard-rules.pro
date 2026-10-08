@@ -1,0 +1,11 @@
+-dontwarn com.google.android.play.core.**
+-dontwarn com.google.mlkit.vision.text.**
+-dontwarn com.google.mlkit.vision.common.**
+-dontwarn com.google.mlkit.**
+-keep class com.google.mlkit.vision.text.** { *; }
+-keep class com.google.mlkit.vision.common.** { *; }
+-keep class io.flutter.app.** { *; }
+-keep class io.flutter.plugin.** { *; }
+-keep class io.flutter.util.** { *; }
+-keep class io.flutter.view.** { *; }
+-keep class io.flutter.** { *; }
